@@ -1,0 +1,217 @@
+
+.ui-datepicker .ui-datepicker-prev,
+ .ui-datepicker .ui-datepicker-next {
+     border-color: transparent;
+     color: black}
+
+.ui-datepicker .ui-datepicker-next {
+  padding-left: 120px}
+
+.ui-datepicker-title {
+	color: black; 
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center}
+
+.ui-datepicker {
+    background: white;
+    border: 1px solid #555;
+    color: #38b7a8;}
+
+#logout_box {margin-bottom: 360px; font-weight: bold; font-size: 21px; color: #38b7a8;padding-top: 60px}
+
+#msg2{padding-top: 30px; color: black; font-weight:initial; font-size: 20px}
+
+body, html    {margin:0;
+               height:96%;
+               width:100%;
+               position:fixed; 
+			   background-image:url('http://jadran.sdsu.edu/~jadrn022/proj1/images/bgimage.jpg')
+                  }
+
+h1,h2      {color: #38b7a8;
+               padding-top:20px;
+               padding-bottom: 10px;
+               font-family: sans-serif;}
+
+h3  {color: #38b7a8; padding-bottom: 10px;
+               font-family: sans-serif; text-decoration: underline}
+
+
+
+.exterior      {width:100%; height: 98%; margin:0 auto;}
+
+
+
+
+
+
+
+.login        {width:450px;
+               height:autofit;  
+               margin: 30px auto;
+               text-align:center;
+	       border: solid #38b7a8 2px;
+	       background-color:#F7F7F7;}
+
+.login #username, #password               
+                {height:24px; font-size:16px;}
+
+#pic {margin-left:auto; margin-right: auto; height: 50px; width: 50px; text-align: center}
+
+#username, #password, #sku, #sku2, #sku3, #date, #date2, #quantity, #quantity2{border-style: solid; border-color: grey;
+		border-radius: 5px;}
+
+#mid, #mid2, #vendor, #vendor2, #category, #category2,
+#description, #features, #cost, #retail{border-style: solid; border-color: #38b7a8;
+		border-radius: 5px; border-width: 0.1px}
+#mid, #mid2, #vendor, #vendor2, #category, #category2,
+#description, #features, #cost, #retail{background-color:lightgrey}
+
+#submitbtn, #resetbtn {border-radius: 5px;font-family: sans-serif;
+        font-weight: bold;border:none; width:100px; height:30px; background:#38b7a8;color:white;margin:40px 20px 30px 20px;}
+
+#addbtn, #addbtn2, #editbtn, #deletebtn, #resetbtn1, #resetbtn2, #resetbtn3{border-radius: 5px;font-family: sans-serif;
+	font-weight: bold;border:none; width:100px; height:30px; background:#38b7a8;color:white;margin:60px 20px 10px 20px;
+   }
+#resetbutton, #addbutton, #resetbutton2, #addbutton2{border-radius: 5px;font-family: sans-serif;
+        font-weight: bold;border:none; width:100px; height:30px; background:#38b7a8;color:white;margin:30px 20px 10px 20px;
+   }
+
+#addbtn:hover, #editbtn:hover, #deletebtn:hover, #addbtn2:hover,
+#resetbtn:hover, #resetbtn1:hover, #resetbtn2:hover, 
+#resetbtn3:hover, #submitbtn:hover {
+	background: gray ;
+	color: #fff}
+      
+#resetbutton:hover, #addbutton:hover, #resetbutton2:hover, #addbutton2:hover
+{background: gray ; color: #fff}
+
+#logoutbtn:hover {color: gray;}
+tr.spacer > td
+{
+  padding-bottom: 1em;
+}
+tr.spacer_right > td
+{
+  padding-bottom: 2px;
+}
+tr.spacer_right_top > td
+{
+  padding-bottom: 2px;
+    padding-top: 15px;
+   
+}
+td.col_spacer
+{
+  padding-left: 1.5em;
+}
+td.col_spacer2
+{
+  padding-left: 9em;
+}
+
+#logoutbtn {background-color: transparent;
+  text-decoration: underline;
+  border: none;
+  margin: -20px 0 0 1110px;
+  font-size:16px;
+  font-weight: bold; color:#38b7a8; }
+
+#welcome_msg{font-size: 20px; 
+   font-weight: bold; color: #38b7a8; margin-left: 50px; margin-top: 10px;}
+
+#error_msg
+{   height: 60px;
+    color: red;
+    font-size:18px; 
+    font-family: sans-serif;
+    font-style : bold;
+    padding-top: 0px;
+    margin-bottom: 0;
+    text-align:center}
+
+#message_line, #message_line2, #message_line3 {
+    height: 60px;
+    font-size:18px;
+    color: red;
+    font-family: sans-serif;
+    font-style: bold;
+    padding-top: 27px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+    text-align:center;
+    }           
+div#tabs ul li {
+    float: left;
+    height: 25px;
+    padding: 4px 10px 0 10px;
+    margin-right: 3px;
+    border: none;
+    position: relative;
+    background: #38b7a8;
+    color:white}
+
+div#tabs ul li a {
+    text-decoration: none;
+    color: white;}
+
+div#tabs ul li.ui-tabs-selected {
+    background: white;
+    color:#38b7a8;}
+
+div#tabs ul li.ui-tabs-selected a {
+    color: #38b7a8;
+    background: white;}
+
+#tabs li:hover {
+ background: gray;}
+
+div#tabs-1, #tabs-2, #tabs-3 {
+    height: 85%;
+    background:white;	
+    border: 1px solid #009;
+    padding: 10px 40px 10px 40px;}
+
+.ui-tabs-hide {
+    display: none;}
+
+td .left_box{color:#38b7a8; }
+
+div#tabs {
+    margin: 35px 0px 57px 85px;
+    max-height: 320px;
+    height :320px;
+    width: 400px;}
+
+#login1        {width:600px;
+               height:252px;  
+               padding: 20px;
+           border: solid #38b7a8 1px;color:white;
+         background: #38b7a8 }
+div#tabs ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 25px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
